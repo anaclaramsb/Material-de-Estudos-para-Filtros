@@ -5,7 +5,7 @@ Bem vindo ao material de estudos para filtros. Para continuar, vamos garantir qu
 Dois modos serão abordados por este material, um usa o [Visual Studio Code](https://code.visualstudio.com/) um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS muito utilizado por todas as áreas, 
 o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes.
 
-- Modo 1 - Visual Studio Code (recomendado)
+- [Modo 1 - Visual Studio Code (recomendado)](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/tree/main#modo-1---visual-studio-code-recomendado)
 - Modo 2 - Anaconda
  
 ## Modo 1 - Visual Studio Code (recomendado)
@@ -21,10 +21,12 @@ Após as instalações acima, abra a pasta do projeto dentro do VSCode a partir 
 Instale as extensões necessárias para rodar o Notebook
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-  ![python](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/assets/50646420/3612d0a0-3554-48e9-b77b-1c1d419018fd)
+
+![python](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/assets/50646420/3612d0a0-3554-48e9-b77b-1c1d419018fd)
  
  - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-  ![jupyter](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/assets/50646420/96578c93-6c74-4a08-8f4a-b7adb5f2f760)
+
+![jupyter](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/assets/50646420/96578c93-6c74-4a08-8f4a-b7adb5f2f760)
 
 
 Após a instalação correta, comece visitando o arquivo `\Notebooks\instalacaobibliotecas.ipynb` e garanta que a versão do python instalada anteriormente esteja corretamente selecionada aqui:
