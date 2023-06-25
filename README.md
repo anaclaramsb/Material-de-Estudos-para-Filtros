@@ -5,8 +5,8 @@ Bem vindo ao material de estudos para filtros. Para continuar, vamos garantir qu
 Dois modos serão abordados por este material, um usa o [Visual Studio Code](https://code.visualstudio.com/) um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS muito utilizado por todas as áreas, 
 o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes. O uso do Visual Studio Code é recomendado pois ele garante uma visualização mais completa do notebook, permitindo o usuário visualizar melhor a execucação das cédulas dos notebooks e abrir vários arquivos de uma vez.
 
-- [Modo 1 - Visual Studio Code](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros-PDS/tree/main#modo-1---visual-studio-code)
-- [Modo 2 - Anaconda](https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros#modo-2----anaconda)
+- [Modo 1 - Visual Studio Code](#modo-1---visual-studio-code)
+- [Modo 2 - Anaconda](#modo-2----anaconda)
  
 ## Modo 1 - Visual Studio Code
 Para começar garanta que na sua máquina esteja instalado o Visual Studio Code (VSCode) e o Python 3:
