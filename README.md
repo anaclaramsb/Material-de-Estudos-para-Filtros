@@ -122,7 +122,7 @@ Também permitindo a continuação. Por fim rode:
 $ python -m ipykernel install --user --name=newenv
 ```
 
-Após isto, abra novamente o Jupyter Notebook através do Anaconda Navigator e vá novamente no notebook  de instalaão de biblitecas e selecione:
+Após isto, abra novamente o Jupyter Notebook através do Anaconda Navigator e vá novamente no notebook  de instalação de biblitecas e selecione:
 
 <p align="center">
 <img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/3172a49a-5153-4421-b946-beea3b07d16f">
