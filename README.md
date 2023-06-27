@@ -1,6 +1,6 @@
 # Material de Estudos para Filtros com Jupyter Notebook
 
-Bem vindo ao material de estudos para filtros. Neste material é possível aprender de forma prática sobre filtros, incluindo suas aplicações em equalizadores, delays e variações no tempo com filtros comb, wah, entre outros. É recomendado que após seguir as istruções de instalação abaixo o usuário comece sua jornada pelo notebook de introdução.
+Bem vindo ao material de estudos para filtros. Neste material é possível aprender de forma prática sobre filtros, incluindo suas aplicações em equalizadores, delays e variações no tempo com filtros comb, wah, entre outros. É recomendado que após seguir as istruções de instalação abaixo o usuário comece sua jornada pelo notebook de introdução, rodando-o para garantir o funcionamento adequado dos outros notebooks.
 
 ### Índice
 
