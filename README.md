@@ -16,7 +16,7 @@ Bem vindo ao material de estudos para filtros. Neste material é possível apren
 Para continuar, vamos garantir que um ambiente propício esteja funcionando em sua máquina.
 
 Dois modos serão abordados por este material: um usa o [Visual Studio Code](https://code.visualstudio.com/) um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS muito utilizado por todas as áreas, 
-o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes. O uso do Visual Studio Code permite uma visualização mais ampla dos widgets, mas o anaconda é de mais fácil instalação, os dois modos são abordados nas seções abaixos:
+o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes. O uso do Visual Studio Code permite uma visualização mais ampla dos widgets e é de mais fácil manutenção, mas o anaconda é de mais fácil instalação apesar de ser mais dificil sua manutenção, os dois modos são abordados nas seções abaixos:
 
 - [Modo 1 - Visual Studio Code](#modo-1---visual-studio-code)
 - [Modo 2 - Anaconda](#modo-2----anaconda)
@@ -68,7 +68,7 @@ Após a instalação correta, abra o aplicativo: Anaconda Navigator
 <img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/16bd01b6-8d00-492c-b207-cb2eeecc97ae">
 </p>
 
-Após a abertura do Anaconda Navigator, é possível ver vários aplicativos a serem usados. **ATENÇÃO!!** O Jupyter Lab não funciona corretamente com este notebook, vamos utilizar o Jupyter Notebook
+Após a abertura do Anaconda Navigator, é possível ver vários aplicativos a serem usados. **ATENÇÃO!!** O Jupyter Lab pode não funcionar corretamente com este notebook, aqui vamos utilizar o Jupyter Notebook
 
 <p align="center">
 <img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/5cf701c2-f8b6-4fde-9b5b-c2ac73062ccf">
@@ -95,10 +95,39 @@ Caso você já tenha o Python instalado em sua máquina e já tenha utilizado el
  
 4. Rodar o notebook de novo
 
-Se esses passos acima não resolverem o seu problema, recomenda-se criar um ambiente novo Python para usar para este projeto. No Vscode, clique na versão do Kernel:
+Se esses passos acima não resolverem o seu problema, recomenda-se criar um ambiente novo Python para usar para este projeto. 
+
+No **Vscode**, clique na versão do Kernel:
 
 <p align="center">
 <img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/7351cc28-a0b3-4ce7-a827-67dfbdaab05c" width=300>
 </p>
 
 Vá em `Select nother Kernel` > `Python Environments` > `Create Python Environment` > `Venv` e espere a inicialização do novo ambiente. Após isso reproduzia os passos de instalações de bibliotecas e tente novamente usar seu notebook.
+
+No  **Anaconda**, feche o Anaconda Navigator e abra o Anaconda Prompt, programa que também vem junto com a instalação geral do Anaconda. Nele rode:
+
+```console
+$ conda create --name newenv
+```
+Permita a continuação da instalação digitando y e apertando enter. Depis rode:
+
+```console
+$ conda activate newenv
+$ conda install -c anaconda ipykernel
+```
+Também permitindo a continuação. Por fim rode:
+
+```console
+$ python -m ipykernel install --user --name=newenv
+```
+
+Após isto, abra novamente o Jupyter Notebook através do Anaconda Navigator e vá novamente no notebook  de instalaão de biblitecas e selecione:
+
+<p align="center">
+<img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/3172a49a-5153-4421-b946-beea3b07d16f">
+</p>
+
+
+Aguarde seu Kenerl inicializar e instale novamente as bibliotecas. Após isso pode user os outros notebook normalmente sempre lembrando de alterar o Kernel em cada um deles e esperar o mesmo iniciar ANTES de rodar seu notebook.
+
