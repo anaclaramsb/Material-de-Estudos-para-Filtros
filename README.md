@@ -2,6 +2,12 @@
 
 Bem vindo ao material de estudos para filtros. Neste material é possível aprender de forma prática sobre filtros, incluindo suas aplicações em equalizadores, delays e variações no tempo com filtros comb, wah, entre outros. É recomendado que após seguir as istruções de instalação abaixo o usuário comece sua jornada pelo notebook de introdução.
 
+### Índice
+
+- [✔️ Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
+- [🔨  Instalação](#--instalação)
+- [:x: Solução de Problemas (Troubleshooting)](#x-solução-de-problemas-troubleshooting)
+
 ## ✔️ Tecnologias utilizadas
 - <a href="http://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"></a>
 - <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
@@ -10,7 +16,7 @@ Bem vindo ao material de estudos para filtros. Neste material é possível apren
 Para continuar, vamos garantir que um ambiente propício esteja funcionando em sua máquina.
 
 Dois modos serão abordados por este material: um usa o [Visual Studio Code](https://code.visualstudio.com/) um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS muito utilizado por todas as áreas, 
-o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes. O uso do Visual Studio Code é recomendado pois ele garante uma visualização mais completa do notebook, permitindo o usuário visualizar melhor a execucação das cédulas dos notebooks.
+o outro involve o uso do [Anaconda](https://www.anaconda.com/download/) uma distribuição das linguagens de programação Python que visa simplificar o gerenciamento e a implantação de pacotes. O uso do Visual Studio Code permite uma visualização mais ampla dos widgets, mas o anaconda é de mais fácil instalação, os dois modos são abordados nas seções abaixos:
 
 - [Modo 1 - Visual Studio Code](#modo-1---visual-studio-code)
 - [Modo 2 - Anaconda](#modo-2----anaconda)
@@ -80,4 +86,19 @@ Após a finzalização da instalação já pode abrir e começar a desfrutar dos
 
 **Obs importante:** Alguns notebook demoram até 1 minuto para rodar pela primeira vez, e não há indicação visual desta primeira execução, ao rodar o notebook aguarde um pouco até a visualização do widget.
 
+## :x: Solução de Problemas (Troubleshooting)
 
+Caso você já tenha o Python instalado em sua máquina e já tenha utilizado ele para outros projetos talvez, por conta de configurações feitas anteriormente, seu notebook não rode de maneira adequada ou os widgets não funcionem como o esperado. A ideia é sempre:
+
+1. Apagar os outputs
+2. Reiniciar o Kernel/Reiniciar o aplicativo utlizado
+ 
+4. Rodar o notebook de novo
+
+Se esses passos acima não resolverem o seu problema, recomenda-se criar um ambiente novo Python para usar para este projeto. No Vscode, clique na versão do Kernel:
+
+<p align="center">
+<img src="https://github.com/anaclaramsb/Material-de-Estudos-para-Filtros/assets/50646420/7351cc28-a0b3-4ce7-a827-67dfbdaab05c" width=300>
+</p>
+
+Vá em `Select nother Kernel` > `Python Environments` > `Create Python Environment` > `Venv` e espere a inicialização do novo ambiente. Após isso reproduzia os passos de instalações de bibliotecas e tente novamente usar seu notebook.
