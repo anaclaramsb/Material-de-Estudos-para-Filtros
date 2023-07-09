@@ -129,5 +129,5 @@ Após isto, abra novamente o Jupyter Notebook através do Anaconda Navigator e v
 </p>
 
 
-Aguarde seu Kenerl inicializar e instale novamente as bibliotecas. Após isso pode user os outros notebook normalmente sempre lembrando de alterar o Kernel em cada um deles e esperar o mesmo iniciar ANTES de rodar seu notebook.
+Aguarde seu Kenerl inicializar e instale novamente as bibliotecas. Após isso pode usar os outros notebook normalmente sempre lembrando de alterar o Kernel em cada um deles e esperar o mesmo iniciar ANTES de rodar seu notebook.
 
