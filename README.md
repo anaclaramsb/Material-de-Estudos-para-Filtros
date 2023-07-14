@@ -6,7 +6,7 @@ Bem vindo ao material de estudos para filtros. Neste material é possível apren
 
 - [✔️ Tecnologias utilizadas](#%EF%B8%8F-tecnologias-utilizadas)
 - [🔨  Instalação](#--instalação)
-- [❌ Solução de Problemas (Troubleshooting)](#x-solução-de-problemas-troubleshooting)
+- [❌ Solução de Problemas (Troubleshooting)](#-solução-de-problemas-troubleshooting)
 
 ## ✔️ Tecnologias utilizadas
 - <a href="http://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white"></a>
